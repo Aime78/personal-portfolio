@@ -1,0 +1,253 @@
+@media (max-width: 600px) {
+  * {
+    margin: 0px;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Heading of the page */
+  .header {
+    position: relative;
+    width: 100vw;
+    height: 450px;
+    margin-bottom: 50px;
+  }
+
+  .header-background {
+    height: 100px;
+    width: 100%;
+    background-color: #012169;
+    clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .header-container {
+    position: absolute;
+    top: 0px;
+    width: 90vw;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "pp-sans-small-regular", Helvetica Neue, Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  #name {
+    background-image: url(../images/in-kg.JPG);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .my-name {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: bottom;
+    font-size: 25px;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .about {
+    background-color: #fafafa;
+    width: 340px;
+    height: 280px;
+    margin: 150px 10px 0px 10px;
+    padding: 110px 4px 2px 5px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .about-me {
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+  .immediate-contact {
+    position: absolute;
+    bottom: -28px;
+    right: 15px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  svg {
+    width: 10px;
+    height: 10px;
+    color: black;
+  }
+
+  svg:hover {
+    color: #012169;
+  }
+
+  /* The content of the page */
+  .content-title {
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 17px;
+  }
+
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .one {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .two {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #card {
+    width: 230px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card-header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 25px;
+    display: flex;
+    gap: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    padding: 2px;
+    font-family: "Roboto", sans-serif;
+    color: #334155;
+    font-weight: 500;
+  }
+
+  .content-svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .project-screen-one {
+    background-image: url(../images/odin-project.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-two {
+    background-image: url(../images/sign-up.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-three {
+    background-image: url(../images/google-clone.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-four {
+    background-image: url(../images/dashboard.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  /* The footer of the page */
+  .footer {
+    background-color: #0e7490;
+    padding: 10px;
+  }
+
+  .contact-info {
+    width: 300px;
+  }
+  .content-color {
+    color: white;
+  }
+
+  .footer-title {
+    font-size: 19px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .footer-paragraph {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .tel {
+    color: white;
+  }
+
+  .tel:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .footer-svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .footer-links-svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 10px;
+  }
+}

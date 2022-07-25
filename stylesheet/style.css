@@ -1,0 +1,291 @@
+@media (min-width: 600px) {
+  * {
+    margin: 0px;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Heading of the page */
+  .header {
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin-bottom: 50px;
+  }
+
+  .header-background {
+    height: 520px;
+    width: 100vw;
+    background-color: #012169;
+    clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .header-container {
+    position: absolute;
+    top: 0px;
+    width: 1150px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-family: "pp-sans-small-regular", Helvetica Neue, Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  #name {
+    background-image: url(../images/in-kg.JPG);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    left: 5px;
+    font-weight: 400;
+    line-height: 1.25;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .my-name {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: bottom;
+    font-size: 55px;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .about {
+    background-color: #fafafa;
+    width: 750px;
+    height: 350px;
+    margin-top: 55px;
+    padding: 30px 2px 2px 25px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .about-me {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .immediate-contact {
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  svg {
+    color: black;
+  }
+
+  svg:hover {
+    color: #012169;
+  }
+
+  /* The content of the page */
+  .content-title {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 100px;
+  }
+
+  .container {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .one {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .two {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .project-screen-one {
+    background-image: url(../images/restaurant-website.png);
+    background-position: 25% 10%;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-two {
+    background-image: url(../images/google-clone.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-three {
+    background-image: url(../images/dashboard.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-four {
+    background-image: url(../images/tic-tac-toe.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-four {
+    background-image: url(../images/odin-project.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-five {
+    background-image: url(../images/library.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-six {
+    background-image: url(../images/calculator.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-seven {
+    background-image: url(../images/etch-a-sketch.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .project-screen-eight {
+    background-image: url(../images/tic-tac-toe.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 190px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  #card {
+    width: 280px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+  }
+
+  .icon {
+    display: flex;
+    gap: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    color: #334155;
+    font-weight: 500;
+  }
+
+  .content-svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* The footer of the page */
+  .footer {
+    background-color: #0e7490;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .content-color {
+    color: white;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 10px;
+  }
+
+  .photo {
+    background-image: url(../images/adv.jpeg);
+    background-position: 20%;
+    background-size: cover;
+    width: 450px;
+    height: 400px;
+  }
+
+  .tel {
+    color: white;
+  }
+
+  .tel:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .footer-svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-links-svg {
+    width: 24px;
+    height: 24px;
+  }
+}
